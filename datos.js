@@ -11,4 +11,5 @@ function promedio(){
     document.write("Su nota final es: "+prome.toFixed(2));
 }
 
+guardarNombre();
 promedio();
