@@ -1,6 +1,9 @@
 function guardarNombre() {
-    let nombreIngre=document.getElementById("nombreIngre").value;
-    document.getElementById("resultado").textContent = "Nombre de estudiante: " + nombreIngre;
+    let nombre=prompt("Ingrese el nombre del estudiante");
+}
+
+function guardarMateria() {
+    let materia=prompt("Ingrese el nombre de la materia");
 }
 
 let nota1, nota2, nota3;
@@ -15,4 +18,5 @@ function promedio(){
 }
 
 guardarNombre();
+guardarMateria();
 promedio();
